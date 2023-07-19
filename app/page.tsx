@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import NavBar from '../components/Navbar';
 import Banner from '../components/banner';
+import MultiColor from '../components/multicolor';
 import Logo from '../components/logos';
 import { useState } from 'react';
 
@@ -12,10 +13,10 @@ export default function Home() {
         <section 
           id='banner'
         >
-        <Banner/>
+          <Banner/>
         </section>
         <section>
-          <h1>multicolor</h1>
+          <MultiColor/>
         </section>
         <section>
           <h1>steps</h1>
