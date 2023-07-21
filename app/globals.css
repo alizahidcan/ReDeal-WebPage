@@ -39,7 +39,7 @@
     font-weight: 700;
     line-height: 63px;
 }
-#bannerThirdWrite{
+#lineWrite{
     color: #5663DA;
     text-align: center;
     font-family: Raleway;
@@ -59,6 +59,7 @@
 #firstCollap{
     flex-shrink: 0;
     border-radius: 12px;
+    box-shadow: 0px 50px 100px 0px rgba(120, 89, 245, 0.14);
 }
 #bannerFirstPicture{
     border-radius: 12px 12px 0px 0px;
@@ -113,6 +114,77 @@
 #props:hover {
     border-radius: 8px;
     background: #46ACFF;
+}
+/*   STEPS        */
+#stepTwo{
+    background: rgba(86, 99, 218, 0.04);
+}
+#stepFirstWrite{
+    color: #081D3A;
+    font-feature-settings: 'liga' off;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+}
+#stepSecWrite{
+    color: #081D3A;
+    font-feature-settings: 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+}
+#stepThirdWrite{
+    color: #081D3A;
+    font-feature-settings: 'liga' off;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+}
+#stepHeader{
+    color: #081D3A;
+    font-feature-settings: 'liga' off;
+    font-size: 30px;
+    font-style: normal;
+    font-weight:900;
+    line-height: 49px;
+}
+#stepOnePicture{
+    border-radius: 50px 50px 140px 50px;
+    background-image: url('../public/step-one-picture.png');
+}
+#stepFirstCollap{
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: -20px 60px 80px 0px rgba(86, 99, 218, 0.08);
+}
+#firstCollapInf{
+    border-radius: 10px;
+    background: #F4F5FF;
+}
+#stepTwoPicture{
+    border-radius: 50px 50px 140px 50px;
+    background-image: url('../public/step-two-picture.png');
+}
+#stepThreePicture{
+    border-radius: 50px 50px 50px 140px;
+    background-image: url('../public/step-three-picture.png');
+}
+#stepThreeWrite{
+    color: #081D3A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+#circleWrite{
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.215px;
 }
 /*   LOGO         */
 #logoFirstWrite{

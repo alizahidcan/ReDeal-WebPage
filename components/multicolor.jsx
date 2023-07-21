@@ -18,7 +18,7 @@ function MultiColor(){
                         <a
                             id='multiBtn'
                             href="#"
-                            className="inline-block mt-4 rounded-xl border border-transparent px-7 py-3 text-center font-medium text-white"
+                            className="inline-block mt-5 rounded-xl border border-transparent px-9 py-3 text-center font-medium text-white"
                             >
                             Contact Us Now
                         </a>

@@ -8,8 +8,8 @@ function Banner(){
             <div className="pb-20 pt-16 sm:pb-30 sm:pt-20 lg:pb-20 lg:pt-30">
                 <div className="mx-auto grid grid-cols-1 md:grid-cols-3 max-w-7xl px-4 sm:px-6 md:px-8">
                     <div className="col-span-1">
-                        <div><p id='line' className='inline-block'></p><span id='bannerThirdWrite' className='pl-4'>REI Deal Analyzer</span></div>
-                        <h1 className="font-bold tracking-tight">
+                        <div><p id='line' className='inline-block'></p><span id='lineWrite' className='relative left-3 top-1'>REI Deal Analyzer</span></div>
+                        <h1 className="font-bold mt-3 tracking-tight">
                             <span id='bannerFirstWrite'>Maximize your real estate ROI with the precision of <span id='bannerSecWrite' className='inline-block'>REI Deal Analyzer.</span></span>
                         </h1>
                         <p className="mt-4 text-xl text-gray-500">
