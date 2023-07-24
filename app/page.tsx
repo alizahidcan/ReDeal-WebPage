@@ -6,12 +6,16 @@ import MultiColor from '../components/multicolor';
 import Steps from '../components/steps';
 import Features from '../components/features';
 import Logo from '../components/logos';
+import Testimonial from '../components/testimonial';
+import Footer from '../components/footer';
 import { useState } from 'react';
 
 export default function Home() {
   return (
     <div>
-        <NavBar/>
+        <section>
+          <NavBar/>
+        </section>
         <section 
           id='banner'
         >
@@ -32,10 +36,10 @@ export default function Home() {
           <Logo/>
         </section>
         <section>
-          <h1>call</h1>
+          <Testimonial/>
         </section>
         <section>
-          <h1>testim</h1>
+          <Footer/>
         </section>
     </div>
   )
