@@ -186,6 +186,67 @@
     line-height: normal;
     letter-spacing: 0.215px;
 }
+/*   FEATURES     */
+#featuresFirst{
+    border-radius: 16px;
+    background: var(--gray-00, #FFF);
+}
+#featuresFirstPicture{
+    border-radius: 10px;
+    opacity: 0.10000000149011612;
+    background: #5663da;
+}
+#featuresSec{
+    border-radius: 16px;
+    background: var(--gray-00, #FFF);
+}
+#featuresSecPicture{
+    border-radius: 10px;
+    opacity: 0.10000000149011612;
+    background: #E283EA;
+}
+#featuresThird{
+    border-radius: 16px;
+    background: var(--gray-00, #FFF);
+}
+#featuresThirdPicture{
+    border-radius: 10px;
+    opacity: 0.10000000149011612;
+    background: #FF9853;
+}
+#featuresFourth{
+    border-radius: 16px;
+    background: var(--gray-00, #FFF);
+}
+#featuresFourthPicture{
+    border-radius: 10px;
+    opacity: 0.10000000149011612;
+    background: #46ACFF;
+}
+#featuresHeader{
+    color: #081D3A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+#featuresParagh{
+    color: #081D3A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.800000011920929;
+}
+#container{
+    width: 100%;
+}
+#slider{
+    width: 400%;
+}
+.slides{
+    flex-basis: 100%;
+}
 /*   LOGO         */
 #logoFirstWrite{
     color: #081D3A;
